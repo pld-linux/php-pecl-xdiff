@@ -13,6 +13,7 @@ Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 Patch0:		%{name}-tsrmls_fetch.patch
 URL:		http://pecl.php.net/package/xdiff/
 BuildRequires:	libtool
+BuildRequires:	libxdiff-devel
 BuildRequires:	php-devel
 Requires:	php-common
 Obsoletes:	php-pear-%{_modname}
@@ -36,6 +37,7 @@ To rozszerzenie ma w PEAR status: %{_status}.
 %prep
 %setup -q -c
 %patch0 -p0
+
 %build
 cd %{_modname}-%{version}
 phpize
