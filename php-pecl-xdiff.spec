@@ -1,8 +1,8 @@
 %define		_modname	xdiff
 %define		_status		alpha
 
-Summary:	%{_modname} - File differences/patches.
-Summary(pl):	%{_modname} - Wy¶wietlanie ró¿nic pomiêdzy plikami oraz tworzenie ³atek.
+Summary:	%{_modname} - File differences/patches
+Summary(pl):	%{_modname} - Wy¶wietlanie ró¿nic pomiêdzy plikami oraz tworzenie ³atek
 Name:		php-pecl-%{_modname}
 Version:	0.2
 Release:	1
