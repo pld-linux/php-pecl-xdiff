@@ -25,13 +25,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This extension creates and applies patches to both text and binary
 files.
 
-This extension has in PEAR status: %{_status}.
+In PECL status of this package is: %{_status}.
 
 %description -l pl
 To rozszerzenie potrafi tworzyæ i nak³adaæ ³aty zarówno dla plików
 tekstowych jak i binarnych.
 
-To rozszerzenie ma w PEAR status: %{_status}.
+To rozszerzenie ma w PECL status: %{_status}.
 
 %prep
 %setup -q -c
