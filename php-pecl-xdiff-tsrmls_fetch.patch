@@ -1,0 +1,19 @@
+diff -burN xdiff-0.2.orig/xdiff.c xdiff-0.2/xdiff.c
+--- xdiff-0.2.orig/xdiff.c	2004-01-08 23:44:07.000000000 +0100
++++ xdiff-0.2/xdiff.c	2004-01-08 23:46:18.000000000 +0100
+@@ -522,6 +522,7 @@
+ 	php_stream *src;
+ 	php_stream_statbuf stat;
+ 		
++	TSRMLS_FETCH();
+ 	src = php_stream_open_wrapper((char *) filepath, "rb", REPORT_ERRORS | ENFORCE_SAFE_MODE, NULL);
+ 	if (!src) {
+ 		return 0;
+@@ -593,6 +594,7 @@
+ 	php_stream *stream = ptr;
+ 	unsigned int i;
+ 	
++	TSRMLS_FETCH();
+ 	for (i = 0; i < array_size; i++) {
+ 		php_stream_write(stream, buffer[i].ptr, buffer[i].size);
+ 	}
