@@ -4,13 +4,12 @@
 Summary:	%{_modname} - File differences/patches
 Summary(pl):	%{_modname} - Wy¶wietlanie ró¿nic pomiêdzy plikami oraz tworzenie ³atek
 Name:		php-pecl-%{_modname}
-Version:	0.2
+Version:	0.3
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	92b3d26e9c2934d5d1cf1eba4166a492
-Patch0:		%{name}-tsrmls_fetch.patch
+# Source0-md5:	e710045625517a1b5380d4730bc75d8a
 URL:		http://pecl.php.net/package/xdiff/
 BuildRequires:	libtool
 BuildRequires:	libxdiff-devel
@@ -36,7 +35,6 @@ To rozszerzenie ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
-%patch0 -p0
 
 %build
 cd %{_modname}-%{version}
