@@ -9,7 +9,7 @@ Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	e710045625517a1b5380d4730bc75d8a
+# Source0-md5:	ec8188d4d0444aadc6e5c59a767f1429
 URL:		http://pecl.php.net/package/xdiff/
 BuildRequires:	libtool
 BuildRequires:	libxdiff-devel
