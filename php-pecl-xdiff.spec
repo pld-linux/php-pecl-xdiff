@@ -11,7 +11,6 @@ Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	064c06291e153f90cd772f2b94570aaa
 URL:		http://pecl.php.net/package/xdiff/
-BuildRequires:	libtool
 BuildRequires:	libxdiff-devel
 BuildRequires:	php-devel
 Requires:	php-common
