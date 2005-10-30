@@ -6,7 +6,7 @@ Summary:	%{_modname} - file differences/patches
 Summary(pl):	%{_modname} - wy¶wietlanie ró¿nic pomiêdzy plikami oraz tworzenie ³atek
 Name:		php-pecl-%{_modname}
 Version:	1.3
-Release:	3
+Release:	4
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
