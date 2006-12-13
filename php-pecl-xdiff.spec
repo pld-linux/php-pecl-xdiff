@@ -5,12 +5,12 @@
 Summary:	%{_modname} - file differences/patches
 Summary(pl):	%{_modname} - wy¶wietlanie ró¿nic pomiêdzy plikami oraz tworzenie ³atek
 Name:		php-pecl-%{_modname}
-Version:	1.3
-Release:	5
+Version:	1.4
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	064c06291e153f90cd772f2b94570aaa
+# Source0-md5:	fc24cb6725fdf2f518a0f2cd42343e7f
 URL:		http://pecl.php.net/package/xdiff/
 BuildRequires:	libxdiff-devel
 BuildRequires:	php-devel >= 3:5.0.0
