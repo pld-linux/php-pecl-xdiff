@@ -1,7 +1,7 @@
 %define		_modname	xdiff
 %define		_status		stable
 Summary:	%{_modname} - file differences/patches
-Summary(pl):	%{_modname} - wy¶wietlanie ró¿nic pomiêdzy plikami oraz tworzenie ³atek
+Summary(pl.UTF-8):   %{_modname} - wyÅ›wietlanie rÃ³Å¼nic pomiÄ™dzy plikami oraz tworzenie Å‚atek
 Name:		php-pecl-%{_modname}
 Version:	1.4
 Release:	1
@@ -24,8 +24,8 @@ files.
 
 In PECL status of this package is: %{_status}.
 
-%description -l pl
-To rozszerzenie potrafi tworzyæ i nak³adaæ ³aty zarówno dla plików
+%description -l pl.UTF-8
+To rozszerzenie potrafi tworzyÄ‡ i nakÅ‚adaÄ‡ Å‚aty zarÃ³wno dla plikÃ³w
 tekstowych jak i binarnych.
 
 To rozszerzenie ma w PECL status: %{_status}.
