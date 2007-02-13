@@ -1,7 +1,7 @@
 %define		_modname	xdiff
 %define		_status		stable
 Summary:	%{_modname} - file differences/patches
-Summary(pl.UTF-8):   %{_modname} - wyświetlanie różnic pomiędzy plikami oraz tworzenie łatek
+Summary(pl.UTF-8):	%{_modname} - wyświetlanie różnic pomiędzy plikami oraz tworzenie łatek
 Name:		php-pecl-%{_modname}
 Version:	1.4
 Release:	1
