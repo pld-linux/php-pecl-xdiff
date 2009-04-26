@@ -1,11 +1,11 @@
 %define		_modname	xdiff
-%define		_status		stable
+%define		_status		beta
 Summary:	%{_modname} - file differences/patches
 Summary(pl.UTF-8):	%{_modname} - wyświetlanie różnic pomiędzy plikami oraz tworzenie łatek
 Name:		php-pecl-%{_modname}
 Version:	1.5.0
 Release:	1
-License:	PHP 2.02
+License:	PHP 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	ac8f730c3c42a7260d1fcc6c8aaa45f2
