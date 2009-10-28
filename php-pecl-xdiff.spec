@@ -3,12 +3,12 @@
 Summary:	%{_modname} - file differences/patches
 Summary(pl.UTF-8):	%{_modname} - wyświetlanie różnic pomiędzy plikami oraz tworzenie łatek
 Name:		php-pecl-%{_modname}
-Version:	1.5.0
+Version:	1.5.1
 Release:	1
 License:	PHP 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	ac8f730c3c42a7260d1fcc6c8aaa45f2
+# Source0-md5:	d8c386c98130e724a07b62f5152130e5
 Patch0:		%{name}-tsrm.patch
 URL:		http://pecl.php.net/package/xdiff/
 BuildRequires:	libxdiff-devel >= 0.22

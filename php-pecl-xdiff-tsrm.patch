@@ -71,6 +71,15 @@
  	if (!retval)
  		goto out_free_string;
  
+@@ -429,7 +429,7 @@
+ 
+ 	RETVAL_FALSE;
+ 
+-	retval = load_into_mm_file(patch, size, &file);
++	retval = load_into_mm_file(patch, size, &file TSRMLS_CC);
+ 	if (!retval)
+ 		goto out;
+ 		
 @@ -524,7 +528,7 @@
  	error_output.priv= &error_string;
  	error_output.outf = append_string;
