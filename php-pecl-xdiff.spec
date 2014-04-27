@@ -5,7 +5,7 @@ Summary:	%{modname} - file differences/patches
 Summary(pl.UTF-8):	%{modname} - wyświetlanie różnic pomiędzy plikami oraz tworzenie łatek
 Name:		%{php_name}-pecl-%{modname}
 Version:	1.5.2
-Release:	4
+Release:	5
 License:	PHP 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
